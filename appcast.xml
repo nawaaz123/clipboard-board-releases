@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Clipboard Board</title>
+        <item>
+            <title>0.10.0</title>
+            <pubDate>Sun, 27 Sep 2026 15:57:24 +0200</pubDate>
+            <link>https://nawaaz123.github.io/clipboard-board-releases/</link>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>0.10.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[- Added Check for Updates to Settings and the menu bar with optional daily checks.
+- Added Sparkle update installation with signed update archives and a signed HTTPS feed.
+- Kept automatic downloading and installation disabled; updates preserve local history and settings.
+]]></description>
+            <enclosure url="https://github.com/nawaaz123/clipboard-board-releases/releases/download/v0.10.0/Clipboard%20Board%200.10.0.zip" length="3950709" type="application/octet-stream" sparkle:edSignature="7kt7VHhQQsyghh9P7T64hzi2kjt5h5C9TOysBwc+UqX0eCRkGndIhdy0R6qKrK9WHe6h3TlTu1ye9CUcZLMzDQ=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: 6F7qnNbBgyUyQoRyQyPK5ba6GdxkSedvQsAe9GaF8NfMWTr13lNYs61/QQ4G57wOk4I5/RMh0hA1KBpAvI91Cg==
+length: 1590
+-->
