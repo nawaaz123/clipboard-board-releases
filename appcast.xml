@@ -1,49 +1,24 @@
-<?xml version="1.0" standalone="yes"?>
-<!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
--->
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Clipboard Board</title>
         <item>
-            <title>0.12.0</title>
-            <pubDate>Tue, 29 Sep 2026 18:46:03 +0200</pubDate>
+            <title>0.12.1</title>
+            <pubDate>Wed, 30 Sep 2026 04:53:43 +0200</pubDate>
             <link>https://nawaaz123.github.io/clipboard-board-releases/</link>
-            <sparkle:version>19</sparkle:version>
-            <sparkle:shortVersionString>0.12.0</sparkle:shortVersionString>
+            <sparkle:version>20</sparkle:version>
+            <sparkle:shortVersionString>0.12.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Connected the live US$5 Clipboard Board product and its one-Mac license checkout.
-- Added license activation, periodic validation and seven-day offline access. Settings and history export remain available if activation is missing or rejected.
-- Added background update checks on internet reconnect, limited to once per fifteen minutes.
-
-- Added envelope icons and Email labels for standalone addresses in History and Quick Pick.
-- Added swatches for #RGB, #RGBA, #RRGGBB and #RRGGBBAA values, with checkerboard transparency and visible borders in light/dark themes.
-- Recognition is local presentation metadata. Original whitespace, case, copied content, storage types and privacy filtering remain unchanged.
-- Invalid colors, surrounding prose and ambiguous email values retain their ordinary preview.
-
-- Grouped History and its filtered results under Today, Yesterday and Earlier, with counts and newest activity first.
-- Kept Pinned and Shelf as separate lists; keyboard navigation and number shortcuts follow selectable rows, not headings.
-- Refresh day headings on local midnight, clock/time-zone changes, wake and reopening without adding a polling timer.
-- Recover keyboard selection when an entry is removed or expires.
-
-- Added a temporary local queue in Quick Pick with per-row Add buttons, repeated entries, progress, and reordering of pending entries.
-- Added Paste Next, Previous, Skip, Retry Last and Clear controls, plus a menu-bar action and optional global Paste Next shortcut in Settings → Advanced.
-- Preserve queue progress on missing history/files, denied Accessibility access or destination focus failure. Progress means a paste command was sent, not verified receipt by the destination app.
-- Queue stores only item references in memory and clears on quit; it is neither synced nor backed up.
-- Corrected global hotkey dispatch to match each registered shortcut identifier.
-
-- Reused Quick Actions as Quick Pick, available from the clipboard panel and menu bar as well as its existing configurable shortcut.
-- Added visible Command-1–9 badges and selection shortcuts that remain available while searching.
-- Kept number assignments stable during each open session, including gaps for deleted entries; new captures appear on reopening.
-- Quick Pick copies by default, follows the existing paste-on-selection preference, and offers an explicit Paste button.
-- Kept temporary Shelf references separate from recent clipboard picks.
+            <description sparkle:format="markdown"><![CDATA[- Select multiple Shelf items with Command-click, Shift-click ranges, or Command-A.
+- Drag any selected Shelf item to send all selected files together to another app.
+- Shelf clicks now select files without immediately copying, pasting, or closing the panel.
 ]]></description>
-            <enclosure url="https://github.com/nawaaz123/clipboard-board-releases/releases/download/v0.12.0/Clipboard.Board.0.12.0.zip" length="4117034" type="application/octet-stream" sparkle:edSignature="nII4U9PN/uk0CbxO8SH2jrFCWxQvpAoLJv0BKiIz83wQRA+HMdjEFSnZfmAfS1AoehaVCCA3nOBHrbVZa6+JAw=="/>
+            <enclosure url="https://github.com/nawaaz123/clipboard-board-releases/releases/download/v0.12.1/Clipboard.Board.0.12.1.zip" length="4143050" type="application/octet-stream" sparkle:edSignature="+t80eHC72RnQCLLdN3iaPI0ZY0fT6pHAXZAViD2wzcDCV4TEUiVtnoF2/hNmHTUxiXLEKC/EqRCg1vlsyJO0CQ=="></enclosure>
         </item>
     </channel>
-</rss>
-<!-- sparkle-signatures:
-edSignature: FtARWRS3+RQz/VrNmYp6uSPnOb7L39FYPTXF0UJ2MUGqODR987QXT4wWwxpY/iawtYC5gkaPgOfwn60RCOVkDA==
-length: 3762
+</rss><!-- sparkle-signatures:
+edSignature: AHQbyH0bxPgdJet0B9rQP3yaNi8t9PTKGh814Ih1sljr6VDZRPLg/yn/TxHQzRgRqGSkcMUyxuZ23Lv+Q185AA==
+length: 1572
 -->
