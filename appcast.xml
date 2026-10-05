@@ -4,21 +4,20 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     <channel>
         <title>Clipboard Board</title>
         <item>
-            <title>0.12.1</title>
-            <pubDate>Wed, 30 Sep 2026 04:53:43 +0200</pubDate>
+            <title>0.12.7</title>
+            <pubDate>Mon, 05 Oct 2026 16:03:06 +0300</pubDate>
             <link>https://nawaaz123.github.io/clipboard-board-releases/</link>
-            <sparkle:version>20</sparkle:version>
-            <sparkle:shortVersionString>0.12.1</sparkle:shortVersionString>
+            <sparkle:version>26</sparkle:version>
+            <sparkle:shortVersionString>0.12.7</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Select multiple Shelf items with Command-click, Shift-click ranges, or Command-A.
-- Drag any selected Shelf item to send all selected files together to another app.
-- Shelf clicks now select files without immediately copying, pasting, or closing the panel.
+            <description sparkle:format="markdown"><![CDATA[- Press Tab in Quick Pick search to focus the first result, browse with arrow keys, and choose with Return. Shift–Tab returns to search.
+- Restrict result deletion to the focused results list so editing search text cannot delete a clipboard item.
 ]]></description>
-            <enclosure url="https://github.com/nawaaz123/clipboard-board-releases/releases/download/v0.12.1/Clipboard.Board.0.12.1.zip" length="4143050" type="application/octet-stream" sparkle:edSignature="+t80eHC72RnQCLLdN3iaPI0ZY0fT6pHAXZAViD2wzcDCV4TEUiVtnoF2/hNmHTUxiXLEKC/EqRCg1vlsyJO0CQ=="></enclosure>
+            <enclosure url="https://github.com/nawaaz123/clipboard-board-releases/releases/download/v0.12.7/Clipboard.Board.0.12.7.zip" length="4261849" type="application/octet-stream" sparkle:edSignature="HesXez6C7Crpwx8SLWiEl45gu59S2unmi6MEBZ7PqjJUsnwLnXsXap7VHpsJqRk/dt4Tctip+ADpjZJNSc18Bw=="></enclosure>
         </item>
     </channel>
 </rss><!-- sparkle-signatures:
-edSignature: AHQbyH0bxPgdJet0B9rQP3yaNi8t9PTKGh814Ih1sljr6VDZRPLg/yn/TxHQzRgRqGSkcMUyxuZ23Lv+Q185AA==
-length: 1572
+edSignature: J+VRGIbAK17AtPQAbdNyyIacIDefMMfe87R5fDzPHpvnxtM9+QeLrLsG98lVXKBmKwOhhQ0j6ZVwiqfyzeS8BQ==
+length: 1562
 -->
