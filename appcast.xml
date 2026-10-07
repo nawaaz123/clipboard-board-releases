@@ -1,23 +1,28 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
     <channel>
         <title>Clipboard Board</title>
         <item>
-            <title>0.12.7</title>
-            <pubDate>Mon, 05 Oct 2026 16:03:06 +0300</pubDate>
+            <title>0.13.11</title>
+            <pubDate>Wed, 07 Oct 2026 15:58:33 +0300</pubDate>
             <link>https://nawaaz123.github.io/clipboard-board-releases/</link>
-            <sparkle:version>26</sparkle:version>
-            <sparkle:shortVersionString>0.12.7</sparkle:shortVersionString>
+            <sparkle:version>39</sparkle:version>
+            <sparkle:shortVersionString>0.13.11</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[- Press Tab in Quick Pick search to focus the first result, browse with arrow keys, and choose with Return. Shift–Tab returns to search.
-- Restrict result deletion to the focused results list so editing search text cannot delete a clipboard item.
+            <description sparkle:format="markdown"><![CDATA[- Send Shelf files to another Mac with short codes. Transfers are encrypted, direct when possible with encrypted relay fallback, and only after recipient approval.
+- Use a code with 3 letters and 4 digits; add a fifth digit only after all 175,760,000 shorter codes are assigned. Lowercase and legacy identifiers remain accepted.
+- Capture screen text with optional on-device OCR, combine selections from several areas, and review or correct text before copying. QR codes and links offer explicit choices.
+- Add Internet Sharing auto-off choices and reorganize Settings for easier access to privacy, sync, updates, and app information.
 ]]></description>
-            <enclosure url="https://github.com/nawaaz123/clipboard-board-releases/releases/download/v0.12.7/Clipboard.Board.0.12.7.zip" length="4261849" type="application/octet-stream" sparkle:edSignature="HesXez6C7Crpwx8SLWiEl45gu59S2unmi6MEBZ7PqjJUsnwLnXsXap7VHpsJqRk/dt4Tctip+ADpjZJNSc18Bw=="></enclosure>
+            <enclosure url="https://github.com/nawaaz123/clipboard-board-releases/releases/download/v0.13.11/Clipboard.Board.0.13.11.zip" length="4454259" type="application/octet-stream" sparkle:edSignature="Yvl6H+ti2Ud0r+/Z3pkrUSJWN4h2v9t5X8ZHGLwMIQRoxwbflGYkGxqEJ0uCP5ArWvSAt4/xYdzxa0KZlBW5Cg=="/>
         </item>
     </channel>
-</rss><!-- sparkle-signatures:
-edSignature: J+VRGIbAK17AtPQAbdNyyIacIDefMMfe87R5fDzPHpvnxtM9+QeLrLsG98lVXKBmKwOhhQ0j6ZVwiqfyzeS8BQ==
-length: 1562
+</rss>
+<!-- sparkle-signatures:
+edSignature: kO6GsMGmaUkvwPJ7Ks7BkUlmAziHwLNTT0jC+CPsBbocbhXK9RqdS2X2ujCsE5jXKc+vvFC0wBUXxYDWmPp0AQ==
+length: 1944
 -->
